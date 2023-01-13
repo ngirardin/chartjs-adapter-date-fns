@@ -10,7 +10,8 @@
   "unpkg": "dist/chartjs-adapter-date-fns.bundle.min.js",
   "exports": {
     "import": "./dist/chartjs-adapter-date-fns.esm.js",
-    "require": "./dist/chartjs-adapter-date-fns.min.js"
+    "require": "./dist/chartjs-adapter-date-fns.min.js",
+    ".": "./dist/chartjs-adapter-date-fns.esm.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
   "files": [
     "dist/*.js"
   ],
+  "type": "module",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.1.0",
